@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapitány Levente Csaba</title>
+    <meta name="keywords" content="majomnátha">
+    <link rel="stylesheet" href="csini.css">
+</head>
+<body>
+    <main>
+        <header><h1>Űrlap</h1></header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Menü</a></li>
+                <li><a href="index.html">Menü</a></li>
+                <li><a href="index.html">Menü</a></li>
+            </ul>
+        </nav>
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Személyes adatok</legend>
+                <div class="block"></div>
+                <label for="nev">Név</label>
+                <input type="text" name="nev" id="nev" placeholder="Vezetéknév">
+                </div>
+
+                <div class="block"></div>
+                <label for="psw">Jelszó</label>
+                <input type="password" name="psw" id="psw">
+                </div>
+
+                <div class="block"></div>
+                <label for="emil">E-mail</label>
+                <input type="email" name="emil" id="emil">
+                </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Nem</legend>
+                    <label for="ffi">Férfi</label> <input type="radio" id="ffi" name="Nem">
+                    <label for="no">Nő</label> <input type="radio" id="no" name="Nem">
+                    <label for="egy">Egyéb</label> <input type="radio" id="egy" name="Nem">
+                    <label for="mar">Martin</label> <input type="radio" id="mar" name="Nem" checked>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hobbik - Többet is bejelölhetsz!</legend>
+                    <label for="áll">Állatidomítás</label> <input type="checkbox" id="áll" name="Hobbik">
+                    <label for="kk">Kenyér készítés</label> <input type="checkbox" id="kk" name="Hobbik">
+                    <label for="vi">Vívás</label> <input type="checkbox" id="vi" name="Hobbik">
+                    <label for="maro">Martin</label> <input type="checkbox" id="maro" name="Hobbik">
+                    <label for="sar">Sárkényölés</label> <input type="checkbox" id="sar" name="Hobbik">
+                    <label for="saro">Sárkényölelés</label> <input type="checkbox" id="saro" name="Hobbik">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Életkor</legend>
+                    <label for="vol">(0-162314):</label>
+                    <input type="range" id="vol" name="vol" min="0" max="162314">
+                </fieldset>
+
+                <div class="block"></div>
+                <input type="submit" value="Küld">
+                </div>
+            </form>
+        </article>
+        <footer><p>Kapitány Levente Csaba</p></footer>
+    </main>
+    
+</body>
+</html>
